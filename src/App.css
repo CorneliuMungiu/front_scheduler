@@ -7,6 +7,102 @@
   background-color: #f4f4f9;
 }
 
+.card {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-edit-event {
+  margin-bottom: 20px;
+}
+
+.create-edit-event input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.create-edit-event button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-edit-event button:hover {
+  background-color: #45a049;
+}
+
+.events-section {
+  margin-top: 20px;
+}
+
+.events-buttons {
+  margin-bottom: 10px;
+}
+
+.events-buttons button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.events-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.event-list {
+  max-height: 300px; /* Set the max height */
+  overflow-y: auto; /* Enable scrolling */
+  margin-top: 10px;
+}
+
+.event-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.event-card h4 {
+  margin: 0 0 5px 0;
+}
+
+.event-card p {
+  margin: 5px 0;
+}
+
+.event-card button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.event-card button:hover {
+  background-color: #e60000;
+}
+
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
